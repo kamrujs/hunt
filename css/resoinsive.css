@@ -1,0 +1,177 @@
+@media (min-width:320px) and (max-width:575px) {
+    .tittle h2 {
+        font-size: 28px;
+    }
+
+    .tittle p {
+        width: auto;
+        font-size: 13px;
+        margin-bottom: 24px;
+    }
+
+
+    nav .navbar-toggler i {
+        color: #000;
+        line-height: 26px;
+    }
+
+    nav .navbar-toggler {
+        width: 50px;
+        height: 35px;
+        background: #fff;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #000000c4;
+        text-align: right;
+        padding-right: 15px;
+        border-bottom: 2px solid #fec600;
+    }
+
+    nav ul li .nav-link {
+        display: inline-block;
+    }
+
+    nav ul li a::after {
+        bottom: 5px;
+    }
+
+
+    #banner-sec .overlay {
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
+
+    #banner-sec .overlay p {
+        margin-bottom: 0px;
+    }
+
+    #banner-sec .overlay h4 {
+        font-size: 20px;
+    }
+
+    /* --------bannerEND */
+
+    /* --------about start */
+    #about .about-shadow {
+        margin: 0;
+        text-align: center !important;
+    }
+
+    #about .about-shadow .arrow {
+        display: none;
+    }
+
+    #about .about-shadow i {
+        display: none;
+    }
+
+    #about .about-mid-img {
+        display: none;
+    }
+
+    #about .mid-left {
+        margin-bottom: 50px;
+    }
+
+    /* --------about end */
+
+    /* --------port end */
+    #portfolio {
+        background: url(../Images/portfolio-bg.jpg) no-repeat center;
+        background-size: cover;
+        padding: 40px 0;
+    }
+
+    /* --------port end */
+
+
+    /* --------service end */
+    #service .item {
+        flex-direction: column;
+    }
+
+    /* --------service end */
+
+
+    /* --------service end */
+
+    #testimonial .tes_overlay {
+        padding-bottom: 20px;
+    }
+
+    #testimonial .text_slider .data {
+        padding: 20px;
+    }
+
+    #testimonial .img_slider .img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #testimonial .img_slider .img {
+        margin: 15px 10px;
+    }
+
+    #testimonial .text_slider .item {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    #testimonial .text_slider .arrow {
+        display: none;
+    }
+
+    #testimonial .text_slider h2 {
+        font-size: 17px;
+    }
+
+    #testimonial .text_slider i {
+        font-size: 13px;
+    }
+
+    #testimonial .text_slider .titt {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    #testimonial .text_slider .descpt {
+        font-size: 13px;
+    }
+
+    #testimonial .text_slider h4 {
+        font-size: 17px;
+    }
+
+    #testimonial .img_slider .down-arrow {
+        bottom: -70px;
+    }
+
+    /* --------service end */
+    #pricing .plan {
+        margin: 15px auto;
+        width: 320px;
+    }
+
+    /* --------counter end */
+    #counter_up .item .border {
+        padding: 18px;
+        margin-bottom: 25px;
+    }
+
+    /* --------counter end */
+
+    footer .footer_link .item {
+        border-right: none;
+    }
+}
+
+/*  */
